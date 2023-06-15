@@ -29,6 +29,7 @@ import { AppComponent } from './app.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { HeroesModule } from "./heroes/heroes.module";
 import { CounterModule } from "./counter/counter.module";
+import { DbzModule } from "./dbz/dbz.module";
 
 
 @NgModule({
@@ -39,6 +40,7 @@ import { CounterModule } from "./counter/counter.module";
     BrowserModule,
     CounterModule,
     HeroesModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
